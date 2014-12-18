@@ -1,6 +1,9 @@
 PIMB (PHP Instant Messaging Bots)
 ====
 
+![PIMB](https://raw.githubusercontent.com/fchristant/PIMB/master/pimb_manual_cover.jpg "PIMB")
+
+
 **Note**: This project is here as an archive. PIMB is no longer actively maintained or supported, yet you are free to use and extend it in any way you see fit. Please refer to the included PDF file for full instructions.
 
 PIMB, PHP Instant Messaging Bots, is a PHP-based chat bot framework that allows you to write, run and manage bots from a web-based panel. The framework uses the open standard Jabber protocol for IM communication, yet completely hides this complexity for bot developers. PIMB is all about lowering the barrier for you to create your own bots.
