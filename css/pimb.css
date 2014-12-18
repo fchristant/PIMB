@@ -1,0 +1,139 @@
+/*
+=================================================================
+			PIMB main CSS file. Defines layout and style
+			Author: 	Ferdy Christant
+			Version:	v3.0
+			Date:		Feb, 2007
+=================================================================
+*/
+
+body {
+margin: 0;
+background: #000;
+font-family: trebuchet ms, tahoma, verdana, arial, helvetica;
+font-size:11px;
+line-height: 1.3em;
+}
+
+#header {
+background: url(../img/bg_hdr.gif);
+height:50px;
+}
+
+#col1 {					
+background: url(../img/bg_col1.gif) no-repeat;
+background-color:#333;
+color:#ccc;
+padding:10px;
+}	
+
+#content {
+background: url(../img/bg_content.gif) repeat-x;
+background-color:#fff;
+padding: 0 20px;
+padding-top:10px;
+}
+		
+#col2 {					
+background: url(../img/bg_col2.gif) no-repeat;
+background-color:#333;
+color:#ccc;
+padding:10px;
+}
+
+#footer {
+text-align: center;
+background: url(../img/bg_ftr.gif);
+color:#fff;
+height:40px;
+}
+
+a, a:link, a:active {
+color: #690;
+}
+
+form {
+font-family: trebuchet ms, tahoma, verdana, arial, helvetica;
+font-size:11px;
+}
+
+select {
+font-family: trebuchet ms, tahoma, verdana, arial, helvetica;
+font-size:11px;
+}
+
+.button_enabled {
+background: url(../img/btn.gif) repeat-x;
+color:#000;
+font-size:11px;
+height:25px;
+}
+
+.button_enabled:hover {
+background: url(../img/btn_h.gif) repeat-x;
+}
+
+.button_disabled {
+background: url(../img/btn.gif) repeat-x;
+color:#999;
+font-size:11px;
+height:25px;
+}
+
+#col1 th, #col2 th, #content th {
+background: url(../img/bg_table.gif) repeat-x;
+font-size:11px;
+color:#fff;
+padding:3px;
+padding-left:5px;
+font-weight:bold;
+}
+
+#col1 td, #col2 td, #content td {
+padding:3px;
+border:1px solid #ccc;
+}
+
+h1 {
+font-size:1.5em;
+}
+
+#col1 h1, #col2 h1 {
+font-size:1.5em;
+color:#fff;
+}
+
+#col2 a  {
+color:#fff;
+}
+
+#col2 h2 {
+color:#690;
+font-size:1.1em;
+font-weight:bold;
+margin-bottom:0px;
+margin-top:10px;
+}
+
+.bot_image {
+border:3px solid #ccc;
+width:100px;
+height:100px;
+}
+
+td.bot_online {
+background:#cf9;
+}
+
+td.bot_offline {
+background:#fc9;
+}
+
+td.bot_starting {
+background:#ff9;
+}
+
+img.wrap { 
+    float: left; 
+    margin: 4px; 
+}
